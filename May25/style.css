@@ -1,4 +1,4 @@
-class2{
+class1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 200px;
     width: 400px;
@@ -6,10 +6,4 @@ class2{
     font-size: 30px; /* */
     text-align: center;
     color: green;
-}
-
-class3{
-    color: black;
-    font-size: 60px;
-
 }
