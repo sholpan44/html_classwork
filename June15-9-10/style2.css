@@ -1,0 +1,21 @@
+.cover{
+    border: 3px solid black;
+    border-spacing: 0px; 
+}
+.head{
+    height: 20px;
+    width: auto;
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+    text-align: center;
+    background-color: rgb(243, 230, 158);    
+}
+.table{
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+    padding-left: 5px;    
+}
+.foot{
+    border-right: 2px solid orange;  
+    background-color: rgb(116, 228, 149);
+}
