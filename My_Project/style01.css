@@ -34,7 +34,7 @@
     outline: 1px solid black;
 }
 
-/* .conteiner{ */
+.conteiner{
     display: flex;
     outline: 1px solid black;
     justify-content: flex-start;
@@ -89,3 +89,4 @@
     float: right;
     outline: 1px solid yellow;
 }
+
