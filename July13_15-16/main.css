@@ -1,0 +1,27 @@
+.main{
+    /* display: flex; */
+    width: 100%;
+    min-width: 430px;
+    max-width: 960px;
+    min-height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.sline{
+    background-color: black;
+    width: 80%;
+    min-height: 80px;
+    margin: 0px 0px 30px 30px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grid-itm{
+    margin-bottom: 30px;
+    flex: 0 1 cals(25% - 30px * (3/4));
+}
