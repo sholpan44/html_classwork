@@ -1,5 +1,7 @@
-.html{
-    
+html{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .body{
     padding: 0px 15px;
@@ -13,13 +15,13 @@
     width: 100%;
     /* background-color: black; */
     min-width: 430px;
-    max-width: 960px;
+    /* max-width: 960px; */
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     box-sizing: border-box;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
 }
 
 .logo{
@@ -33,6 +35,7 @@
     align-items: center;
 
 }
+
 .nav{
     margin: -5px 0px 10px -15px;
     display: flex;
