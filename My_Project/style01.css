@@ -4,6 +4,11 @@ html{
     flex-direction: column;
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
 .body{
     padding: 0px;
     margin: 0px;
@@ -142,14 +147,10 @@ html{
 }
 
 .table{
-    /* display: flex; */
-    flex-wrap: wrap;
     border-spacing: 0px; 
     font-size: 15px;
     height: 20px;
     width: 150px;
-    /* border: 2px solid black; */
-    /* display: inline-block; */
     margin: center;
     text-align: center; 
 }
@@ -164,7 +165,6 @@ html{
 .bottoms{
     height: 20px;
     width: auto; 
-    /* display: inline-block;    */
     text-align: center;
 }
 
@@ -184,10 +184,6 @@ html{
 
 .connect{
     text-align: center;   
-}
-
-.logos{
-    text-align: center;
 }
 
 .logo-img{
