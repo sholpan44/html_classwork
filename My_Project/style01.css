@@ -1,3 +1,9 @@
+html{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .body{
     padding: 0px;
     margin: 0px;
@@ -6,6 +12,8 @@
 .head{
     height: 50px;
     width: 100%;
+    min-width: 430px;
+    max-width: 960px;
 }
 
 .line_bottoms{
@@ -110,6 +118,7 @@
     min-height: 300px;
     width: 500px;
     height: 500px;
+    border: 1px solid greenyellow;
 }
 
 .img-bottom{
@@ -120,4 +129,69 @@
     min-height: 300px;
     width: 100px;
     height: 100px;
+}
+
+.footer{
+    background: gray;
+    height: auto;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.table{
+    /* display: flex; */
+    flex-wrap: wrap;
+    border-spacing: 0px; 
+    font-size: 15px;
+    height: 20px;
+    width: 150px;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin: center;
+    text-align: center; 
+}
+
+.info{
+    height: 50px;
+    width: 100%;
+    min-width: 430px;
+    max-width: 960px;
+}
+
+.bottoms{
+    height: 20px;
+    width: auto; 
+    /* display: inline-block;    */
+    text-align: center;
+}
+
+.about{
+    font-size: 20px;
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    padding: auto;
+    margin-right: 20px;  
+}
+
+.footer-txt{
+    font-size: 20px;
+    text-align: center;
+}
+
+.connect{
+    text-align: center;   
+}
+
+.logos{
+    text-align: center;
+}
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
 }

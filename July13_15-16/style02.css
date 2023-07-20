@@ -8,13 +8,6 @@
     box-sizing: border-box;
 }
 
-.sline{
-    background-color: black;
-    width: 80%;
-    min-height: 80px;
-    margin: 0px 0px 30px 30px;
-}
-
 .grid{
     display: flex;
     justify-content: space-between;
@@ -24,12 +17,16 @@
 
 .grid-itm{
     margin-bottom: 30px;
-    flex: 0 1 cals(25% - 30px * (3/4));
+    flex: 0 1 cals(33.33% - 30px * (2/3));
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grid-img{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
     display: block;
     margin-bottom: 30px;
 }

@@ -3,6 +3,7 @@ html{
     display: flex;
     flex-direction: column;
 }
+
 .body{
     padding: 0px 15px;
     margin: 0px;
